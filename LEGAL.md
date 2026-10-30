@@ -15,9 +15,9 @@ E-Mail: dustin.struss@langenfeld-longhorns.de
 
 ## Hinweis / Notice
 
-Die Software „XO/Book“ wird von einer Einzelperson entwickelt und angeboten. Informationen zur Verarbeitung personenbezogener Daten finden Sie in der Datenschutzerklärung.
+Die Software „Coaxio“ wird von einer Einzelperson entwickelt und angeboten. Informationen zur Verarbeitung personenbezogener Daten finden Sie in der Datenschutzerklärung.
 
-*"XO/Book" is developed and offered by an individual. For information on the processing of personal data, see the Privacy Policy.*
+*"Coaxio" is developed and offered by an individual. For information on the processing of personal data, see the Privacy Policy.*
 
 ## Streitbeilegung / Dispute resolution
 

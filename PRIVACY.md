@@ -1,4 +1,4 @@
-# Datenschutzerklärung für XO/Book
+# Datenschutzerklärung für Coaxio
 
 **Verbindliche Fassung:** Diese deutsche Fassung ist die rechtlich verbindliche. Die englische Fassung weiter unten dient nur dem besseren Verständnis (*The German version is the binding one; the English version below is a convenience translation.*)
 
@@ -17,7 +17,7 @@ Ein Datenschutzbeauftragter ist nicht benannt, da hierzu nach derzeitiger Einsch
 
 ## 2. Überblick
 
-XO/Book ist eine Desktop-Anwendung für Windows und macOS zum Erstellen von Football-Playbooks und zur Organisation von Coaching-Staffs. Die App ist grundsätzlich ohne Benutzerkonto und ohne Internetverbindung nutzbar. Personenbezogene Daten werden nur in den unten beschriebenen Fällen verarbeitet:
+Coaxio ist eine Desktop-Anwendung für Windows und macOS zum Erstellen von Football-Playbooks und zur Organisation von Coaching-Staffs. Die App ist grundsätzlich ohne Benutzerkonto und ohne Internetverbindung nutzbar. Personenbezogene Daten werden nur in den unten beschriebenen Fällen verarbeitet:
 
 | Funktion | Daten verlassen Ihren Rechner? | Empfänger |
 |---|---|---|
@@ -29,7 +29,7 @@ XO/Book ist eine Desktop-Anwendung für Windows und macOS zum Erstellen von Foot
 
 ## 3. Lokale Nutzung ohne Konto
 
-Playbooks (Dateiendung `.xobook`) und Team-Dateien (`.xoteam`) werden ausschließlich auf Ihrem Computer gespeichert. Es findet keine Analyse Ihres Nutzungsverhaltens (Analytics), kein Tracking, keine Werbung und keine Telemetrie statt. Der Entwickler erhält diese Dateien nicht.
+Playbooks (Dateiendung `.cxb`) und Team-Dateien (`.cxt`) werden ausschließlich auf Ihrem Computer gespeichert. Es findet keine Analyse Ihres Nutzungsverhaltens (Analytics), kein Tracking, keine Werbung und keine Telemetrie statt. Der Entwickler erhält diese Dateien nicht.
 
 ## 4. Fehlerprotokolle und Feedback
 
@@ -59,12 +59,12 @@ Für die Online-Funktionen nutzen wir Supabase (Supabase Inc., USA). Die Datenba
 - **Änderungsprotokoll:** die letzten 100 Änderungen je Team, damit Mitcoaches nicht jedes Mal die ganze Datei laden müssen.
 - **Präsenz („Presence“):** wer gerade online ist, und der Zeitpunkt der letzten Aktivität („last seen“). Solange das Coaching-Fenster geöffnet ist, wird dieser Zeitstempel alle paar Sekunden aktualisiert.
 - **Anmeldung auf Ihrem Computer:** Ihre Anmeldung wird als sogenanntes Refresh-Token in den lokalen Einstellungen der App gespeichert, damit Sie nicht jedes Mal neu anmelden müssen. Beim Abmelden bzw. Löschen des Kontos wird es entfernt.
-- **Vorbereitete Spielerfunktionen:** Die Datenbank enthält bereits Tabellen für Funktionen, die Playbooks für Spieler bereitstellen. Sofern Ihr Team diese Funktionen nutzt, können zusätzlich verarbeitet werden: an Spieler freigegebene Playbooks (einschließlich Seitenbildern), die auf einer Seite verbrachte Zeit sowie Quizantworten.
+- **Spieler-Portal:** Veröffentlichen Coaches ein Playbook für Spieler, werden Seitenbilder, Bilder der Plays und die Aufgaben der Positionen („Assignments“) auf dem Server gespeichert. Spieler legen ein Konto an (E-Mail-Adresse, Passwort, Anzeigename), werden von einem Coach freigeschaltet und geben ihre Position an. Verarbeitet werden außerdem ihre Antworten in Quiz und Karteikarten (richtig oder falsch, Zeitpunkt, Lernstand je Karte). Coaches ihres Teams sehen diese Ergebnisse je Spieler. Die Bilder werden beim Entfernen des Playbooks bzw. beim Löschen des Kontos eines einzigen Coaches des Teams gelöscht.
 
 ### 6.3 Rechtsgrundlagen und Rollenverteilung
 
 - **Kontoinhaber (Coaches und Spieler):** Für die Daten, die zur Bereitstellung des Kontos und der Online-Funktionen nötig sind, ist die Rechtsgrundlage Art. 6 Abs. 1 lit. b DSGVO (Nutzung des Dienstes bzw. Vertrag).
-- **Von Coaches eingegebene Daten über Spieler und andere Personen:** Hier ist das **Team (der Verein bzw. die Mannschaft)** der Verantwortliche. XO/Book stellt die Infrastruktur bereit und handelt insoweit als **Auftragsverarbeiter** nach Art. 28 DSGVO. Das Team entscheidet, welche Daten es eingibt, und braucht dafür eine eigene Rechtsgrundlage (z. B. Einwilligung oder berechtigtes Interesse) sowie ggf. eine Information der betroffenen Personen. Die erforderliche Vereinbarung zur Auftragsverarbeitung zwischen Team und Betreiber ist auf Anfrage unter dustin.struss@langenfeld-longhorns.de erhältlich.
+- **Von Coaches eingegebene Daten über Spieler und andere Personen:** Hier ist das **Team (der Verein bzw. die Mannschaft)** der Verantwortliche. Coaxio stellt die Infrastruktur bereit und handelt insoweit als **Auftragsverarbeiter** nach Art. 28 DSGVO. Das Team entscheidet, welche Daten es eingibt, und braucht dafür eine eigene Rechtsgrundlage (z. B. Einwilligung oder berechtigtes Interesse) sowie ggf. eine Information der betroffenen Personen. Die erforderliche Vereinbarung zur Auftragsverarbeitung zwischen Team und Betreiber ist auf Anfrage unter dustin.struss@langenfeld-longhorns.de erhältlich.
 - **Besondere Hinweise:** Bitte geben Sie **keine Gesundheitsdaten** (z. B. Verletzungen) und keine Daten von **Kindern** ein, wenn Ihr Team dafür keine tragfähige Rechtsgrundlage hat. Bei Jugendmannschaften kann die Einwilligung der Erziehungsberechtigten erforderlich sein.
 
 ### 6.4 Speicherdauer und Löschung
@@ -101,7 +101,7 @@ Wir passen diese Erklärung an, wenn sich die App oder die Rechtslage ändert. E
 
 ---
 
-# Privacy Policy for XO/Book (English version)
+# Privacy Policy for Coaxio (English version)
 
 **Binding version:** The German version above is the legally binding one. This English version is provided for convenience only.
 
@@ -120,7 +120,7 @@ No data protection officer has been appointed, as there is currently assumed to 
 
 ## 2. Overview
 
-XO/Book is a desktop application for Windows and macOS for creating football playbooks and organizing coaching staffs. The app can be used without an account and without an internet connection. Personal data is processed only in the cases described below:
+Coaxio is a desktop application for Windows and macOS for creating football playbooks and organizing coaching staffs. The app can be used without an account and without an internet connection. Personal data is processed only in the cases described below:
 
 | Feature | Does data leave your computer? | Recipient |
 |---|---|---|
@@ -132,7 +132,7 @@ XO/Book is a desktop application for Windows and macOS for creating football pla
 
 ## 3. Local use without an account
 
-Playbooks (file extension `.xobook`) and team files (`.xoteam`) are stored only on your computer. There is no analytics, no tracking, no advertising and no telemetry. The developer does not receive these files.
+Playbooks (file extension `.cxb`) and team files (`.cxt`) are stored only on your computer. There is no analytics, no tracking, no advertising and no telemetry. The developer does not receive these files.
 
 ## 4. Error logs and feedback
 
@@ -162,12 +162,12 @@ For the online features we use Supabase (Supabase Inc., USA). The database is ho
 - **Change log:** the last 100 edits per team, so that fellow coaches do not have to load the whole file every time.
 - **Presence:** who is currently online, and a "last seen" timestamp. While the coaching window is open, this timestamp is refreshed every few seconds.
 - **Login on your computer:** your login is kept as a refresh token in the app's local settings so you do not have to sign in every time. It is removed when you sign out or delete your account.
-- **Prepared player features:** the database already contains tables for features that provide playbooks to players. If your team uses these features, the following may additionally be processed: playbooks shared with players (including page images), time spent per page, and quiz answers.
+- **Player portal:** when coaches publish a playbook for players, page images, images of the plays and the assignments of the positions are stored on the server. Players create an account (email address, password, display name), are approved by a coach and state their position. Their answers in the quiz and flashcards (right or wrong, time, learning state per card) are processed as well. Coaches of their team see these results per player. The images are deleted when the playbook is removed or when the only coach of the team deletes their account.
 
 ### 6.3 Legal bases and roles
 
 - **Account holders (coaches and players):** for the data needed to provide the account and the online features, the legal basis is Art. 6(1)(b) GDPR (use of the service / contract).
-- **Data about players and other persons entered by coaches:** here the **team (the club or squad)** is the controller. XO/Book provides the infrastructure and acts as **processor** under Art. 28 GDPR. The team decides which data it enters and needs its own legal basis (e.g. consent or legitimate interest) and, where applicable, must inform the persons concerned. The required data processing agreement between team and operator is available on request at dustin.struss@langenfeld-longhorns.de.
+- **Data about players and other persons entered by coaches:** here the **team (the club or squad)** is the controller. Coaxio provides the infrastructure and acts as **processor** under Art. 28 GDPR. The team decides which data it enters and needs its own legal basis (e.g. consent or legitimate interest) and, where applicable, must inform the persons concerned. The required data processing agreement between team and operator is available on request at dustin.struss@langenfeld-longhorns.de.
 - **Special notes:** please do **not** enter **health data** (e.g. injuries) or data of **children** unless your team has a sound legal basis. For youth teams, consent of parents or guardians may be required.
 
 ### 6.4 Retention and deletion
